@@ -1,0 +1,40 @@
+Setting up the enviorment
+
+Step 1)have python3 and pip installed on the system.
+Step 2)pip install -r requirements.txt
+
+there needs to be 2 txt files in the folder 
+websites.txt , answers.txt
+
+websites.txt contents-- In the first line you need to type what you want to search for, you have 3 boolean search options here:  + | -
++ Concatenates words to detect pages using more than one specific key
+| Shows all sites that contain either or both specified words in the query
+- Used to avoid displaying results containing certain words
+
+second line the keyword that you want to count
+third line urls of the websites
+
+so an example of websites.txt would be something like this
+
+" I want to search for websites that include WBE and airports and count the number of times the keyword WBE appears."
+
+WBE + airport
+WBE
+https://epam.com
+https://amazon.com
+...
+...
+
+
+after the script finishes executing the urls where the keyword was found will be displayed in the answers.txt file in the following format.
+
+the keyword which you searched.
+the url where the keyword was found and the number of occurences there.
+
+
+keyword: WBE
+url : https://example
+number of occurrences: 2
+
+
+if instead of the number you see "Blocked by firewall" it means that the website security feature blocked the request by most likely putting up a captcha and it won't be possible to get results from that website automatically with scraping.

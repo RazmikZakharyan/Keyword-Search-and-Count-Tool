@@ -1,0 +1,74 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="1638" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="Scrapy" />
+            <item index="1" class="java.lang.String" itemvalue="Django" />
+            <item index="2" class="java.lang.String" itemvalue="scrapyd" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N801" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="apps.architect.models.Project.objects" />
+          <option value="apps.architect.models.Group.objects" />
+          <option value="apps.architect.models.Category.objects" />
+          <option value="apps.architect.models.Reply.objects" />
+          <option value="apps.architect.models.AttachFile.objects" />
+          <option value="apps.architect.mixin.CommentMixin.request" />
+          <option value="apps.architect.models.Comment.objects" />
+          <option value="apps.architect.mixin.CommentMixin.comment_qty" />
+          <option value="apps.architect.mixin.CommentMixin.kwargs" />
+          <option value="apps.architect.mixin.ProjectDetailMixin.kwargs" />
+          <option value="apps.architect.models.ProjectDetails.objects" />
+          <option value="apps.architect.models.Order.objects" />
+          <option value="apps.architect.mixin.GroupMixin.request" />
+          <option value="apps.architect.mixin.GroupMixin.kwargs" />
+          <option value="apps.architect.mixin.ProjectMixin.request" />
+          <option value="apps.architect.mixin.GroupMixin.get" />
+          <option value="apps.architect.mixin.ProjectDetailMixin.*" />
+          <option value="apps.account.models.Notification.*" />
+          <option value="apps.architect.models.OrderLine.*" />
+          <option value="apps.architect.models.PreliminaryObject.objects" />
+          <option value="apps.architect.models.PreliminaryProject.objects" />
+          <option value="apps.architect.mixin.PreliminaryConstructionMixin.kwargs" />
+          <option value="apps.architect.mixin.PreliminaryConstructionMixin.request" />
+          <option value="object.get_context_data" />
+          <option value="apps.api.mixin.ValidateMixin.check_object_has_files" />
+          <option value="apps.api.mixin.ValidateMixin.check_objects_element_id" />
+          <option value="apps.api.mixin.ValidateMixin.get_categories" />
+          <option value="apps.api.mixin.ValidateMixin.check_base64_files" />
+          <option value="apps.api.mixin.ValidateMixin.location_converter" />
+          <option value="apps.api.mixin.ValidateMixin.request" />
+          <option value="django.views.generic.list.MultipleObjectTemplateResponseMixin.get_context_data" />
+          <option value="apps.manufacturer.mixin.OrderMixin.request" />
+          <option value="django.db.models.fields.related.ForeignKey.project_title" />
+          <option value="django.db.models.fields.related.ForeignKey.id" />
+          <option value="apps.developer.mixin.QuotationMixin.request" />
+          <option value="apps.architect.mixin.PreliminaryConstructionMixin.get_queryset" />
+          <option value="apps.home.models.Waiter.objects" />
+          <option value="xss_scanner.concurrent" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
